@@ -8,14 +8,14 @@
  	state = {loggedIn : null}
  	componentWillMount() {
  		 // Initialize Firebase
-		
+	
 		  firebase.initializeApp({
-		    apiKey: "AIzaSyBmWGOzFhdCJ3b0r11qK9tqgwlBsOY1WOg",
-		    authDomain: "react-native-auth-24e9d.firebaseapp.com",
-		    databaseURL: "https://react-native-auth-24e9d.firebaseio.com",
-		    projectId: "react-native-auth-24e9d",
-		    storageBucket: "react-native-auth-24e9d.appspot.com",
-		    messagingSenderId: "427876805211"
+		    apiKey: "AIzaSyBmWGOzFhdCJ3b0r11qK9tqgwlBsOY1WOg", //CHANGE WITH YOUR OWN APIKEY
+		    authDomain: "react-native-auth-24e9d.firebaseapp.com",//CHANGE WITH YOUR OWN APIKEY
+		    databaseURL: "https://react-native-auth-24e9d.firebaseio.com",//CHANGE WITH YOUR OWN APIKEY
+		    projectId: "react-native-auth-24e9d",//CHANGE WITH YOUR OWN APIKEY
+		    storageBucket: "react-native-auth-24e9d.appspot.com",//CHANGE WITH YOUR OWN APIKEY
+		    messagingSenderId: "427876805211"//CHANGE WITH YOUR OWN APIKEY
 		  });
 		  firebase.auth().onAuthStateChanged((user)=>{
 		  		if (user) {
